@@ -3,8 +3,7 @@
 
   <div v-for="product in products" :key="product.id" class="box--product flex w-11/12 m-auto my-3 rounded-xl items-center justify-center shadow-md py-2 px-4">
     <div class="w-5/12">
-      <img loading="lazy" :src="'http://shoping.gigfa.com/'+product.image" class="w-48 max-h-40" alt="">
-      <!-- <img loading="lazy" :src="'http://localhost/magenta/src/assets/'+product.image" class="w-48 max-h-40" alt=""> -->
+      <img loading="lazy" :src="require('../../assets/'+product.image)" class="w-48 max-h-40" alt="">
     </div>
     <div class="w-7/12">
       <router-link class="text-md -my-1 capitalize	text-gray-700 block" :to="{name:'Product',params:{id:product.id}}" v-text="product.name"></router-link>

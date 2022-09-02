@@ -12,8 +12,7 @@
 
   <div id="box--product" v-for="product in products" :key="product.id" class="flex w-11/12 m-auto my-3 rounded-xl items-center justify-center shadow-md py-2 px-4">
     <div class="w-5/12">
-      <img :src="'http://shoping.gigfa.com/'+product.image" class="w-48 max-h-40" alt="">
-      <!-- <img :src="'http://localhost/magenta/src/assets/'+product.image" class="w-48 max-h-40" alt=""> -->
+      <img :src="require('../../assets/'+product.image)" class="w-48 max-h-40" alt="">
     </div>
     <div class="w-7/12">
       <router-link class="text-md -my-1 capitalize	text-gray-700 block" :to="{name:'Product',params:{id:product.id}}" v-text="product.name"></router-link>
@@ -32,8 +31,7 @@
 </div> 
 <div v-else>
   <div class=" grid justify-center">
-    <img src="http://shoping.gigfa.com/empty_cart.png" alt="">
-    <!-- <img src="http://localhost/magenta/src/assets/empty_cart.png" class="w-9/12 m-auto mt-16" alt=""> -->
+    <img src="../../assets/empty_cart.png" class="w-9/12 m-auto mt-16" alt="">
     <span class="m-auto mt-2 text-lg " >Empty Cart!!</span>
   </div>
 </div>

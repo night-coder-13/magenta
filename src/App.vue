@@ -7,6 +7,7 @@
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @font-face {
   font-family: open-sans;
   src: url('./assets/font/OpenSans-VariableFont_wdth,wght.ttf') ;
@@ -29,7 +30,8 @@
   box-sizing: border-box;
 }
 body{
-  font-family: roboto !important;
+  font-family: 'Fira Sans', sans-serif;
+  /* font-family: roboto !important; */
   background-color: rgb(240, 240, 240);
 }
 .caveat{

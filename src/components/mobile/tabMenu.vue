@@ -14,7 +14,7 @@ import { ref } from "@vue/reactivity";
 import { useStore } from "vuex";
 
 const store = useStore()
-const menu = ref(['All','Table','Chair','Lamp','Flower'])
+const menu = ref(['All','Sofa','Table','Chair','Lamp','Flower'])
 // const tmenu = document.getElementsByClassName('tab--menu')
   
 function tab(e,value){

@@ -7,8 +7,8 @@
     <span @click="activeMenu()" class="font-bold text-2xl hover:text-gray-600 cursor-pointer"><i class="fa-solid fa-bars"></i></span>
   </div>
 </div>
-<div id="body--menu" :class="statusMenu" class="w-full h-full sm:hidden fixed top-0 text-gray-700">
-    <div class="w-full h-full fixed z-10 bg-dark">
+<div id="body--menu" :class="statusMenu" class="w-full h-full sm:hidden fixed top-0 text-gray-700 z-50">
+    <div class="w-full h-full fixed bg-dark">
         <div id="hed--profile" class="flex justify-end text-2xl">
           <span  @click="activeMenu()" class="cursor-pointer text-red-600 hover:text-red-400"><i class="fa-solid fa-xmark my-3 mx-4"></i></span>
         </div>

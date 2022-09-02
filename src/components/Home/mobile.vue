@@ -5,6 +5,7 @@
  <TabMenu />
  <Store />
  <MenuBar />
+ <Footer />
 </template>
 
 <script setup>
@@ -13,6 +14,7 @@ import Hed from '../mobile/hed.vue'
 import TabMenu from '../mobile/tabMenu.vue'
 import Store from '../mobile/store.vue'
 import MenuBar from '../mobile/menuBar.vue'
+import Footer from '../mobile/footer.vue'
 
 </script>
 

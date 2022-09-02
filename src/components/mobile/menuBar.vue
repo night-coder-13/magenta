@@ -1,5 +1,5 @@
 <template>
-<div class="w-full pt-2 pb-3 bg-gray-100 fixed bottom-0 ">
+<div class="w-full pt-2 pb-3 bg-gray-100 fixed bottom-0 z-40">
   <div class="w-10/12 m-auto flex items-center justify-center text-purple text-xl">
     <router-link :to="{name:'Home'}" class="flex items-center justify-center flex-1"><i class="fa-solid fa-shop"></i></router-link>
     <router-link :to="{name:'Profile'}" class="flex items-center justify-center flex-1"><i class="fa-solid fa-user"></i></router-link>
